@@ -83,7 +83,7 @@ async def start_stream(
             videoid, CallbackQuery.from_user.id, duration_min, duration_min
         )
         await mystic.delete()
-        cap = f"🏷<b>__Title:__ </b>[{title[:25]}](https://www.youtube.com/watch?v={videoid}) \n\n💡<b>__Info:__</b> [ᴅᴏ𝘀ᴋʏ ꭙ ᴍᴜ𝘀ɪᴄ'ʙᴏᴛ](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n🎧**__Requested by:__** {CallbackQuery.from_user.mention}"
+        cap = f"🏷<b>__Title:__ </b>[{title[:25]}](https://www.youtube.com/watch?v={videoid}) \n\n💡<b>__Info:__</b> [SteadyMusic](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n🎧**__Requested by:__** {CallbackQuery.from_user.mention}"
         final_output = await CallbackQuery.message.reply_photo(
             photo=thumb,
             reply_markup=InlineKeyboardMarkup(buttons),
