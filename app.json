@@ -1,5 +1,5 @@
 {
-  "name": "Kay Music ",
+  "name": "SteadyV2 ",
   "description": "A Telegram Music Bot with proper functions written in Python with Pyrogram and Py-Tgcalls.",
   "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
   "keywords": [
@@ -120,7 +120,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "If you dont know this, Leave as it is",
-      "value": "https://github.com/Kayxzy/KayMusic",
+      "value": "https://github.com/5GVckyy/SteadyV2",
       "required": true
     },
     "UPSTREAM_BRANCH": {
